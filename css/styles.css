@@ -122,6 +122,8 @@ img {
 
 .first-section {
     background-color: #2e2f42;
+    background-image: linear-gradient(to right, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+    url("../images/people-office.jpg");
     padding-top: 188px;
     padding-bottom: 188px;
 }
@@ -134,6 +136,16 @@ img {
 
 .list-item {
     width: calc((100% - 72px) / 4);
+}
+
+.advatages-icon-container {
+    display: flex;
+    height: 112px;
+    background-color: #F4F4FD;
+    border-radius: 4px;
+    margin-bottom: 8px;
+    justify-content: center;
+    align-items: center;
 }
 
 .main-title {
@@ -235,6 +247,7 @@ img {
 .employee-list-item {
     background-color: #FFFFFF;
     width: calc((100% - 72px) / 4);
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     border-radius: 0px 0px 4px 4px;
 }
 
@@ -250,6 +263,7 @@ img {
     color: #2e2f42;
     margin-bottom: 8px;
     text-align: center;
+    
 }
 
 .employee-text-item {
@@ -258,6 +272,32 @@ img {
     letter-spacing: 0.02em;
     color: #434455;
     text-align: center;
+}
+
+.soсial-media-icons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8px;
+}
+
+.soсial-media-icon-item {
+    background-color: #4D5AE5;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+.soсial-media-icon-item > a {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.soсial-media-icon {
+    fill: #F4F4FD;
 }
 
 .footer {
